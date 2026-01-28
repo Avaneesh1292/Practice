@@ -4,5 +4,5 @@
 # Python cache
 __pycache__/
 
-#config
+#config files
 config.py
