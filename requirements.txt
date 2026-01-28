@@ -1,0 +1,28 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Gemini
+langchain-google-genai
+
+# Embeddings
+langchain-huggingface
+sentence-transformers
+
+# Vector search
+faiss-cpu
+
+# Hybrid retrieval
+rank-bm25
+
+# PDF loading
+pypdf
+
+# Observability
+langfuse
+
+# Utilities
+numpy
+pydantic
