@@ -9,7 +9,10 @@ llm = ChatGoogleGenerativeAI(
 )
 
 prompt = ChatPromptTemplate.from_template("""
-Use ONLY the context below.
+You are answering questions based on a single handbook provided as a PDF.
+This is the only handbook and the only source of truth.
+
+Use ONLY the context from the PDF below.
 If the answer is not present, say "I don't know."
 
 Context:
@@ -20,6 +23,7 @@ Question:
 
 Answer:
 """)
+
 
 @observe(name="rag_run")
 def run_rag(question, retriever):
